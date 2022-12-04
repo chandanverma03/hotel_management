@@ -1,0 +1,357 @@
+body{
+    background-image: url('https://a.loveholidays.com/images/holidays/portugal/madeira/funchal/savoy-palace.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-width: 100%;
+    height: 100%;
+    margin: 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+.head{
+    margin: 0px;
+    width: 100%;
+    height: 43.7em;
+}
+.background{
+    position: relative;
+    height: 6.5rem;
+    background-color: #00000054;
+    border-radius: 14px;
+    width: 97%;
+    top: 20px;
+    left: 18px;
+    border: outset #5156f7 2px;
+}
+.background:hover{
+    cursor: pointer;
+    border: outset #c73636 2px;
+	-webkit-box-shadow: 0px 0px 15px 5px rgba(198, 198, 78, 0.75);
+	box-shadow: 0px 0px 15px 5px rgba(198, 198, 78, 0.75);
+}
+
+
+.navbar{
+    position: relative;
+    left: auto;
+    top: -1rem;
+    padding: 1.4rem;
+    width: 74rem;
+    height: 5rem;
+}
+
+
+.nav-item{
+	position: relative;
+	top:0.5rem;
+	list-style-type: none;
+    padding-inline-start: 2px;
+}
+
+
+.nav-item li{
+	display: inline-table;
+	font-size: 30px;
+	font-weight: bold;
+	padding-left: 2rem;
+	text-align: center;
+	text-shadow: 4px 3px 3px black;
+}
+
+
+.main{
+    text-decoration: none;
+    color:white;
+}
+
+
+.main:hover{
+    cursor: pointer;
+    color: #c73636;
+}
+
+
+.sign{
+	border-radius: 9px;
+    width: 7rem;
+    height: 2.9rem;
+    background-color: #c73636;
+    border: hidden;
+    font-weight: bolder;
+    font-size: 19px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+.sign:hover{
+    cursor: pointer;
+	background-color:#bd2424;
+}
+
+.button{
+    position:relative;
+    margin-top: 200px;
+    margin-left: 245px;
+    border-radius: 12px;
+    width: 50rem;
+    height: 5rem;
+    background-color: bisque;
+    border:2px solid;
+    font-weight: bolder;
+    font-size: 35px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:black;
+}
+
+
+.button:hover{
+    cursor: pointer;
+    background-color: green;
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(55, 32, 188, 0.75);
+	box-shadow: 0px 0px 15px 5px rgba(55, 32, 188, 0.75);
+}
+
+
+#login:hover{
+    cursor: pointer;
+	border: none;
+	background-color: #13bd86;
+	color: white;
+}
+
+
+#login{
+	background-color: white;
+	color: #5156f7;
+	border:solid #5156f7 1px;
+}
+
+.text p{
+    margin-top:70px;
+    position:relative;
+	margin-left:200px;
+    align-items: center;
+
+}
+.text p:hover{
+    cursor: pointer;
+}
+
+.contact img{
+    margin-bottom:4px;
+
+}
+
+
+.booking-background{
+    position:relative;
+    left:13px;
+    top:16px;
+    background-color: #2e5c5fad;
+    width:98%;
+    height:41em;
+}
+
+
+.hold{
+    border-radius: 20px;
+	display: inline-table;
+    position: relative;
+    /* background-color: lightblue; */
+    height: 2em;
+    width: 15em;
+    margin-top: 20px;
+    margin-left: 45px;
+    left: 4.5px;
+    color: darkred;
+    border: 2px black solid;
+}
+
+.hold img{
+    margin-left:auto;
+	border-radius:20px;
+	width: 22rem;
+    height: 14rem;
+}
+
+
+.hold p{
+    text-align: center;
+    color:white;
+    font-size:28px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.hold h4{
+	color:whitesmoke;
+	font-size: 28px;
+	text-align: center;
+	margin-top: 1.5px;
+}
+
+.hold button{
+	width: 10rem;
+    height: 3rem;
+    color: white;
+    background-color: #e33131;
+    border: none;
+    border-radius: 120px;
+    margin-left: 93px;
+    margin-bottom: 12px;
+    font-size: 20px;
+}
+
+
+.hold:hover{
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(55, 32, 188, 0.75);
+	box-shadow: 0px 0px 15px 5px rgba(55, 32, 188, 0.75);
+
+}
+
+
+.facility{
+    text-align:center;
+    font-size: 35px;
+    color:green;
+    font-family:'Courier New', Courier, monospace;
+    margin-top:10px;
+    
+}
+.best-booking h5{
+    text-align: center;
+    font-size: 50px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    margin-top:50px;
+    margin-bottom:10px;
+    color:whitesmoke;
+    text-decoration: black underline;
+    padding: 6px;
+
+}
+
+
+.check{
+    display: inline-table;
+    position: relative;
+    border-radius: 20px;
+	border: 2px black solid;
+	text-align:center;
+	width:400px;
+	height:450px;
+	margin-top: 130px;
+	margin-left:450px;
+	font-size:40px;
+	font-family:fangsong;
+	color: #FFEB3B;	
+}
+
+
+.check input{
+	border-radius: 8px;
+	width: 200px;
+	height: 35px;
+	margin-top: 30px;
+}
+
+
+.check input:hover{
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 15px 15px lightblue;
+    box-shadow: 0px 0px 15px 15px lightblue;
+    color: darkgreen;
+}
+
+
+.check:hover{
+    cursor: pointer;
+	border: outset lightgreen 2px;
+	-webkit-box-shadow: 0px 0px 15px 5px rgba(55, 32, 188, 0.75);
+	box-shadow: 0px 0px 15px 5px rgba(55, 32, 188, 0.75);
+	color: black;
+}
+
+
+#find{
+    position:relative;
+    margin-top: 130px;
+    margin-left: 245px;
+    border-radius: 12px;
+    width: 50rem;
+    height: 5rem;
+    background-color: bisque;
+    border:2px solid;
+    font-weight: bolder;
+    font-size: 35px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:black;
+}
+
+#find:hover{
+    cursor: pointer;
+    background-color: rgb(129, 250, 129);
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(160, 23, 137, 0.75);
+	box-shadow: 0px 0px 15px 5px rgba(193, 40, 227, 0.75);
+}
+
+.holder {
+    border: 2px solid black;
+    border-top-left-radius: 38px;
+    border-top-right-radius: 38px;
+    border-radius: 10px;
+    display: inline-table;
+    position: relative;
+    top: -147px;
+    background-color: #5e4fb31f;
+    height: 17.5em;
+    width: 15em;
+    margin-top: 10px;
+    margin-left: 70px;
+    left: 0px;
+    color: white;
+
+}
+
+.holder img {
+    border-radius: 38px;
+    position: relative;
+    left: 31px;
+    top: 10px;
+    width: 11rem;
+    height: 9rem;
+}
+
+.holder p {
+    position: relative;
+    top: 18px;
+    text-align: center;
+    font-size: 19px;
+    /* margin-top:55px; */
+}
+
+.contacts h4 {
+    position: relative;
+    top: -70px;
+    text-align: center;
+    margin: 111px 20px;
+    padding: 20px;
+    font-size: 65px;
+    text-decoration: underline;
+    color: whitesmoke;
+}
+
+.contacts .holder {
+    margin: 0px 80px;
+    margin-bottom:20px;
+}
+
+.holder:hover {
+    cursor: pointer;
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(55, 32, 188, 0.75);
+	box-shadow: 0px 0px 15px 5px rgba(55, 32, 188, 0.75);
+	color: black;
+    border: 2px solid white;
+    border-radius: 20px;
+
+}
